@@ -10,6 +10,20 @@ html{
 header{
 
 }
+.hero{
+    color: aliceblue;
+    background-image: url(./images/mh-tri-TadNRJiOHB4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.hero p, h2{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    justify-content: center;
+}
 .logo{
     height: 15vh;
 }
@@ -45,10 +59,14 @@ body{
 }
 
 footer{
+    display: flex;
+    flex-direction: row;
     padding-left: 10%;
     color: aliceblue;
     background-color: rgba(0,0,0, 0.8);
-
+}
+.profilepic{
+    margin-left: 60%;
 }
 /* @media screen (min-width:100px) and (max-width:800px) {
     
