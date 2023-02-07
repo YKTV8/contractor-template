@@ -128,10 +128,151 @@ footer{
 .profilepic{
     margin-left: 60%;
 }
-/* @media screen (min-width:100px) and (max-width:800px) {
+ @media screen and (min-width:100px) and (max-width:800px) {
     
+    html{
+        overflow-x: hidden;
+        width: fit-content;
+    }
+    body{
+        overflow-x: hidden;
+        width: 100%
+    };
+    .navbar{
+        background-color: rgb(75, 4, 4);
+        color: aliceblue;
+        padding-left: 10%;
+        position: relative;
+    }
+    .navbar i{
+        padding-left: 0%;
+    }
+    header{
+        position: fixed;
+        z-index: 1;
+    
+    }
+    .hero{
+        color: aliceblue;
+        background-image: url(./images/mh-tri-TadNRJiOHB4-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        width: 100%;
+    }
+    .hero p, h2{
+        color: blue;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        justify-content: center;
+    }
+    h2{
+        padding-top: 1%;
+    
+    }
+    .logo{
+        height: 15vh;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 100vw;
+        background-color: rgba(0,0,0, 0.8);
+    }
+    li{
+        padding: 1%;
+        justify-content: center;
+    }
+    a{
+        color: aliceblue;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10%;
+        width: 85%;
+    }
+    article{
+        margin: 1%;
+        padding: 10%;
+        border: black solid 2px;
+        background-image: url(./images/austin-chan-ukzHlkoz1IE-unsplash.jpg);
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .getquote{
+        background-color: white;
+        padding-left: 0%;
+        opacity: .85;
+    }
+    .getquote button{
+        border-radius: 1px;
+        border-color: rgba(204, 108, 11, 1);
+        background-color: transparent;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .quality{
+        display: flex;
+        flex-direction: column;
+        /* border: solid black 2px; */
+       margin:0;
+    }
+    .qualitytext{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20%;
+        /* border: solid black 2px; */
+        padding-bottom: 5%;
+    }
+    .columnsection{
+        display: flex;
+        flex-direction: column;
+        padding-right: 25%;
+        padding-left: 2%;
+        margin-left: 5%;
+        margin-right: 100px;
+        background-color: aliceblue;
+        margin-bottom: 15%;
+    }
+    .column1{
+        margin-right: 12%;
+        margin-bottom: 15%;
+    }
+    .colum1 img{
+        display: flex;
+        width: 805;
+    }
+    .column2{
+        margin-right: 16%;
+    }
+    body{
+    
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        color: aliceblue;
+        background-color: rgba(0,0,0, 0.8);
+    }
+    .profilepic{
+        margin-left: 0%;
+    }
+ 
 }
-@media screen (min-width: 801px) and (max-width:1759px) {
+/*@media screen (min-width: 801px) and (max-width:1759px) {
     
 }
 @media screen (min-width:2700px) {
