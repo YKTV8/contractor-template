@@ -28,12 +28,20 @@ header{
     background-size: cover;
     height: 90vh;
 }
-.hero p, h2{
+.hero p{
     color: blue;
     display: flex;
     justify-content: center;
     font-weight: 600;
+}
+.hero h2{
+    
+    color: black;
+    display: flex;
     justify-content: center;
+    font-weight: 600;
+    /* padding-top: 15%; */
+
 }
 h2{
     padding-top: 1%;
@@ -75,11 +83,13 @@ article{
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 8px 10px #ffffff99;
 }
 .getquote{
     background-color: white;
     padding-left: 15%;
     opacity: .85;
+    box-shadow: 5px 0px #000000;
 }
 .getquote button{
     border-radius: 1px;
@@ -114,8 +124,17 @@ article{
 .column2{
     margin-right: 16%;
 }
-body{
-
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    border: solid black 0.5px;
+    box-shadow: 3px 5px 15px 5px #ffffff99;
+    border-radius: 2%;
+    height: 10%;
+    width: 40%;
 }
 
 footer{
@@ -141,6 +160,7 @@ footer{
     .navbar{
         background-color: rgb(75, 4, 4);
         color: aliceblue;
+        width: 100%;
         padding-left: 10%;
         position: relative;
     }
@@ -235,10 +255,12 @@ footer{
         /* border: solid black 2px; */
         padding-bottom: 5%;
     }
+    
     .columnsection{
         display: flex;
         flex-direction: column;
-        padding-right: 25%;
+        width: fit-content;
+        padding-right: 2%;
         padding-left: 2%;
         margin-left: 5%;
         margin-right: 100px;
@@ -256,8 +278,17 @@ footer{
     .column2{
         margin-right: 16%;
     }
-    body{
-    
+    .contact-form{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        flex-wrap: wrap;
+        border: solid black 0.5px;
+        box-shadow: 3px 5px 15px 5px #ffffff99;
+        border-radius: 2%;
+        height: 10%;
+        width: 90%;
     }
     
     footer{
