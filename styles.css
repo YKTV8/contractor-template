@@ -113,10 +113,17 @@ article{
 .columnsection{
     display: flex;
     flex-direction: row;
+    flex-shrink: initial;
     padding-right: 20%;
     padding-left: 2%;
     margin-right: 40%;
+    width: 725px;
+    height: 466px;
     background-color: aliceblue;
+}
+.column1 img{
+    display: flex;
+    flex-shrink: initial;
 }
 .column1{
     margin-right: 12%;
@@ -135,6 +142,13 @@ article{
     border-radius: 2%;
     height: 10%;
     width: 40%;
+}
+textarea{
+    max-width: 100%;
+    max-height: 50%;
+}
+input{
+    max-width: 35%;
 }
 
 footer{
@@ -155,7 +169,7 @@ footer{
     }
     body{
         overflow-x: hidden;
-        width: 100%
+        width: 100vw
     };
     .navbar{
         background-color: rgb(75, 4, 4);
@@ -259,7 +273,8 @@ footer{
     .columnsection{
         display: flex;
         flex-direction: column;
-        width: fit-content;
+        width: 390px;
+        height: 950px;
         padding-right: 2%;
         padding-left: 2%;
         margin-left: 5%;
@@ -270,10 +285,6 @@ footer{
     .column1{
         margin-right: 12%;
         margin-bottom: 15%;
-    }
-    .colum1 img{
-        display: flex;
-        width: 805;
     }
     .column2{
         margin-right: 16%;
@@ -289,6 +300,14 @@ footer{
         border-radius: 2%;
         height: 10%;
         width: 90%;
+        line-height: 175%;
+    }
+    textarea{
+        max-width: 70%;
+        max-height: 100%;
+    }
+    input{
+        max-width: 35%;
     }
     
     footer{
