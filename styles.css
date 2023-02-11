@@ -27,6 +27,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    border-bottom: solid #00000099;
 }
 .hero p{
     color: blue;
@@ -40,7 +41,7 @@ header{
     display: flex;
     justify-content: center;
     font-weight: 600;
-    /* padding-top: 15%; */
+    padding-top: 11%;
 
 }
 h2{
@@ -74,6 +75,7 @@ section{
     display: flex;
     flex-direction: row;
     padding-bottom: 10%;
+    
 }
 article{
     margin: 1%;
@@ -90,6 +92,7 @@ article{
     padding-left: 15%;
     opacity: .85;
     box-shadow: 5px 0px #000000;
+    border-bottom: solid #00000099;
 }
 .getquote button{
     border-radius: 1px;
@@ -136,6 +139,7 @@ article{
     flex-direction: row;
     margin-left: 5%;
     margin-bottom: 10%;
+    padding-left: 5%;
     flex-wrap: wrap;
     border: solid black 0.5px;
     box-shadow: 3px 5px 15px 5px #ffffff99;
@@ -193,6 +197,7 @@ footer{
         background-size: cover;
         height: 90vh;
         width: 100%;
+        border-bottom: solid #00000099;
     }
     .hero p{
         color: blue;
@@ -240,11 +245,14 @@ footer{
     section{
         display: flex;
         flex-direction: column;
+        margin-left: 10%;
         padding-bottom: 10%;
         width: 85%;
     }
     article{
-        margin: 5% 5%;
+        display: flex;
+        justify-items: center;
+        margin: 5% 15%;
         padding: 10%;
         border: black solid 2px;
         background-image: url(./images/austin-chan-ukzHlkoz1IE-unsplash.jpg);
@@ -257,8 +265,16 @@ footer{
         background-color: white;
         padding-left: 0%;
         opacity: .85;
+        height: 40vh;
+        border-bottom: solid #00000099;
+    }
+    .getquote h2{
+        display: flex;
+        justify-content: center;
     }
     .getquote button{
+        margin-top: 10%;
+        margin-left: 40%;
         border-radius: 1px;
         border-color: rgba(204, 108, 11, 1);
         background-color: transparent;
@@ -284,14 +300,15 @@ footer{
         flex-direction: column;
         /* width: 390px;
         height: 950px; */
-        width: 80%;
+        width: 100%;
         height: 200%;
         padding-right: 2%;
         padding-left: 2%;
-        margin-left: 5%;
-        margin-right: 100px;
+        margin-left: 0%;
+        margin-right: 0px;
         background-color: aliceblue;
         margin-bottom: 15%;
+        border-bottom: solid #00000099;
     }
     .column1{
         margin-right: 12%;
