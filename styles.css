@@ -78,6 +78,10 @@ li{
 a{
     color: aliceblue;
 }
+a:hover{
+    color: chartreuse;
+    font-weight: bolder;
+}
 section{
     display: flex;
     flex-direction: row;
