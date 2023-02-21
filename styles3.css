@@ -405,7 +405,8 @@ footer{
     }
     body{
         overflow-x: hidden;
-        width: 100vw
+        width: 100vw;
+        font-size: 18px
     };
     .navbar{
         background-color: rgb(75, 4, 4);
