@@ -4,6 +4,7 @@
     margin: 0%;
 }
 html{
+    overflow-x: hidden;
     background-repeat: no-repeat;
     background: linear-gradient(135deg, rgba(208, 110, 12, 1), rgba(204, 108, 11, 1), rgba(61, 136, 230, 1));
 
@@ -127,6 +128,9 @@ article div{
     transition: transform 1.3s ease-in-out;
 }
 .contractor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /* border: solid black 2px; */
     margin-left: 0%;
     margin-top: 2%;
@@ -140,14 +144,17 @@ article div{
     padding: 2% 14%;
     font-size: 135%;
 }
+.contractortext ul li{
+    padding-right: 5%;
+}
 .columnsection{
     display: flex;
     flex-direction: row;
     flex-shrink: initial;
     padding-right: 20%;
     padding-left: 2%;
-    margin-right: 40%;
-    margin-left: 20%;
+    margin-right: 0%;
+    margin-left: 25%;
     width: 705px;
     height: 486px;
     background-color: rgba(255,255,255, 0.4);

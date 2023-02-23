@@ -165,7 +165,11 @@ article div{
 .contact-form{
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
+    justify-content: left;
+    justify-self: center;
+    justify-items: center;
+    margin-left: 30%;
+    margin-top: 10%;
     margin-bottom: 10%;
     padding-left: 5%;
     padding-top: 20px;
@@ -398,6 +402,8 @@ footer{
     }
  
 }
+/*-------------------801px thru 1159px viewport-----------------------*/
+
 @media screen and (min-width: 801px) and (max-width:1159px) {
     html{
         overflow-x: hidden;
@@ -563,6 +569,9 @@ footer{
     }
     .contact-form{
         display: flex;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
         flex-direction: row;
         margin-left: 5%;
         margin-bottom: 10%;
