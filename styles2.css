@@ -28,9 +28,9 @@ header{
     background-image: url(./images/mh-tri-TadNRJiOHB4-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20vh;
+    height: 90vh;
     border-bottom: solid #00000099;
-    padding: 25%;
+    /* padding: 25%; */
 }
 .hero p{
     color: white;

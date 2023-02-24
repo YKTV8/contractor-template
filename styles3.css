@@ -27,9 +27,9 @@ header{
     background-image: url(./images/mh-tri-TadNRJiOHB4-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20vh;
+    height: 90vh;
     border-bottom: solid #00000099;
-    padding: 25%;
+    padding: 5% 5%;
 }
 .hero p{
     color: white;
@@ -234,7 +234,7 @@ footer{
         height: 70vh;
         width: 100%;
         border-bottom: solid #00000099;
-        padding: 15% 5% 70% 5%;
+        padding: 45% 5%;
     }
     .hero p{
         color: blue;
@@ -251,7 +251,7 @@ footer{
         justify-content: center;
         font-weight: 600;
         justify-content: center;
-        padding-top: 31%;
+        /* padding-top: 31%; */
     }
     h2{
         padding-top: 1%;
@@ -313,7 +313,7 @@ footer{
     }
     .getquote button{
         margin-top: 10%;
-        margin-left: 40%;
+        margin-left: 35%;
         border-radius: 1px;
         border-color: rgba(204, 108, 11, 1);
         background-color: transparent;
