@@ -128,6 +128,7 @@ article div{
     transition: transform 1.3s ease-in-out;
 }
 .contractor{
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -238,7 +239,7 @@ footer{
         height: 70vh;
         width: 100%;
         border-bottom: solid #00000099;
-        padding: 45% 5%;
+        padding: 55% 5%;
     }
     .hero p{
         color: blue;
@@ -255,11 +256,11 @@ footer{
         justify-content: center;
         font-weight: 600;
         justify-content: center;
-        padding-bottom: 20%;
+        /* padding-bottom: 20%; */
     }
     h2{
         justify-content: center;
-        padding-top: 0%;
+        padding-top: 1%;
     
     }
     .logo{
@@ -339,7 +340,7 @@ footer{
         padding-bottom: 5%;
     }
     .contractortext ul{
-        margin-left: -10%;
+        margin-left: 0%;
         padding-left: 0%;
     }
     .contractortext li{
@@ -460,7 +461,7 @@ footer{
         justify-content: center;
         font-weight: 600;
         justify-content: center;
-        padding-bottom: 20%;
+        /* padding-bottom: 20%; */
     }
     h2{
         padding-top: 1%;
