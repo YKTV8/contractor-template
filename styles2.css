@@ -128,7 +128,7 @@ article div{
     transition: transform 1.3s ease-in-out;
 }
 .contractor{
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,6 +139,7 @@ article div{
     margin-bottom: 10%;
 }
 .contractortext{
+    color: white;
     margin: 1%;
     /* border: solid black 2px; */
     padding-bottom: 5%;
