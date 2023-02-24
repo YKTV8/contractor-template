@@ -237,7 +237,7 @@ footer{
         height: 70vh;
         width: 100%;
         border-bottom: solid #00000099;
-        padding: 25%;
+        padding: 45% 5%;
     }
     .hero p{
         color: blue;
@@ -349,12 +349,12 @@ footer{
         flex-direction: column;
         /* width: 390px;
         height: 950px; */
-        width: 96%;
+        width: 100%;
         height: 200%;
-        padding-right: 2%;
-        padding-left: 2%;
-        margin-left: 2%;
-        margin-right: 250px;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
         background-color: aliceblue;
         margin-bottom: 15%;
         border-bottom: solid #00000099;
