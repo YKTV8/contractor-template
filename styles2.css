@@ -6,12 +6,13 @@
 html{
     overflow-x: hidden;
     background-repeat: no-repeat;
-    background: linear-gradient(135deg, rgba(208, 110, 12, 1), rgba(204, 108, 11, 1), rgba(61, 136, 230, 1));
-
+    /* background: linear-gradient(135deg, rgba(208, 110, 12, 1), rgba(204, 108, 11, 1), rgba(61, 136, 230, 1)); */
+    background: linear-gradient(135deg, rgb(64, 64, 64), rgba(64, 64, 64, 1), rgb(98, 252, 64));
 }
 .navbar{
-    background-color: rgb(75, 4, 4);
-    color: aliceblue;
+    /* background-color: rgb(75, 4, 4); */
+    background-color: rgb(98, 252, 64);
+    color: black;
     padding-left: 20%;
     position: relative;
 }
@@ -30,7 +31,7 @@ header{
     background-size: cover;
     height: 90vh;
     border-bottom: solid #00000099;
-    /* padding: 25%; */
+    padding: 25%;
 }
 .hero p{
     color: white;
@@ -43,17 +44,16 @@ header{
 .hero h2{
     
     color: rgba(255,255,255, 0.85);
-    background-color: rgba(0,0,0, 0.27);
     display: flex;
     justify-content: center;
     font-size: 450%;
     font-family: 'Dancing Script', cursive;
     font-weight: 600;
-    padding-top: 0%;
 
 }
 h2{
     padding-top: 1%;
+    background-color: rgba(0,0,0, 0.27);
 
 }
 .logo{
@@ -213,7 +213,8 @@ footer{
         width: 100vw
     };
     .navbar{
-        background-color: rgb(75, 4, 4);
+        /* background-color: rgb(75, 4, 4); */
+        background-color: rgb(98, 252, 64);
         color: aliceblue;
         width: 100%;
         padding-left: 10%;
@@ -249,7 +250,7 @@ footer{
     .hero h2{
         width: 100vw;
         background-color: rgba(0,0,0, 0.27);
-        color: red;
+        color: white;
         display: flex;
         justify-content: center;
         font-weight: 600;
@@ -422,7 +423,7 @@ footer{
         width: 100vw
     };
     .navbar{
-        background-color: rgb(75, 4, 4);
+        background-color: rgb(98, 252, 64);
         color: aliceblue;
         width: 100%;
         padding-left: 10%;
@@ -454,7 +455,7 @@ footer{
         justify-content: center;
     }
     .hero h2{
-        color: red;
+        color: white;
         display: flex;
         justify-content: center;
         font-weight: 600;
@@ -463,6 +464,7 @@ footer{
     }
     h2{
         padding-top: 1%;
+        background-color: rgba(0,0,0, 0.27);
     
     }
     .logo{
